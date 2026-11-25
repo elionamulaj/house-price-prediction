@@ -1,4 +1,5 @@
-from flask import Flask, request, jsonify
+
+from flask import Flask, request, jsonify, render_template
 from pathlib import Path
 
 import pandas as pd
@@ -39,11 +40,7 @@ CATEGORICAL_FEATURES = [
 # Home route
 @app.route("/")
 def home():
-    return jsonify({
-        "project": "HomeValue AI",
-        "status": "Running",
-        "model": metrics["model"]
-    })
+    return render_template("index.html")
 
 
 # Model performance route
