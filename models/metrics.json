@@ -1,0 +1,22 @@
+{
+    "model": "Gradient Boosting",
+    "mae": 17363.371173079122,
+    "rmse": 26803.769329639603,
+    "r2": 0.9063348766570911,
+    "training_samples": 1168,
+    "testing_samples": 292,
+    "features": [
+        "OverallQual",
+        "GrLivArea",
+        "GarageCars",
+        "TotalBsmtSF",
+        "FullBath",
+        "YearBuilt",
+        "YearRemodAdd",
+        "BedroomAbvGr",
+        "LotArea",
+        "Neighborhood",
+        "HouseStyle",
+        "ExterQual"
+    ]
+}
