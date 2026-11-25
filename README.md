@@ -25,3 +25,10 @@ house prices based on real estate data.
 ## Project Status
 
 Currently under development.
+## Live Demo
+
+[Launch HomeValue AI](https://house-price-prediction-ylu9.onrender.com)
+
+The application is deployed on Render and publicly accessible.
+
+Note: The first request may take longer due to the free hosting plan.
